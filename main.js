@@ -12,3 +12,5 @@ const toggleMenu = (menuClassName, showClassName) => {
 btn.addEventListener("click", () => {
   toggleMenu("header-nav", "header-nav-active");
 });
+
+console.log("Hello, World!");
